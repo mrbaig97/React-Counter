@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color:black;
+    color: white;
+    border: 10px solid gray;
+}
+.app .count {
+    margin-bottom: 25rem;
+    text-align: center;
+    display: flex;
+    margin-left: 1rem;
+}
+.app .count h3 {
+    line-height: 7rem;
+    margin-right: 1rem;
+}
+.app .count h1 {
+    font-size:4em;
+    margin-top: 2rem;
+}
+.app .buttons button {
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    margin: 0 2rem;
+    position: relative;
+    bottom: 400px;
+    font-size: 2em;
+    font-weight: bolder;
+    /* box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08); */
+    cursor: pointer;
+}
+#image{
+    width: 500px;
+    height: 500px;
+}
+
